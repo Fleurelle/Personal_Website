@@ -9,13 +9,16 @@
   </head>
   <body>
       <!--NAVBAR STARTS-->
-    <nav id="navbar">
-        <a href="index.html" class="active">Home</a>
-        <a href="bio.html">About</a>
-        <a href="contact.html">Contact</a>       
-      </nav>
-
+      <div class="navbar">
+        <button onclick="myFunction()" class="dropbtn"><span class="material-icons md-20">menu</span></button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="index.html">Home</a>
+          <a href="bio.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
       <!--NAVBAR ENDS-->
+
       <div id="beep_me">
       <div class="call_me">
         <h1> GET IN TOUCH</h1>
@@ -25,7 +28,7 @@
             </div>
             <p class="welcome"><strong><em>EMAIL</em></strong></p>
             <div class="my_email">
-            <p class="welcome"> <span class="material-icons md-18">perm_phone_msg</span> R.d.jeanlouis01@gmail.com</p>
+            <p class="welcome">R.d.jeanlouis01@gmail.com</p>
             </div>
       </div>
       </div>
@@ -54,6 +57,8 @@
           </form>
         </div>
       </div>
+
+      <script src="script.js"></script>
   </body>
 
 </html>

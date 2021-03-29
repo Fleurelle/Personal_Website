@@ -7,13 +7,23 @@
     <title>My Website</title>
   </head>
   <body>
+
     <!--NAVBAR STARTS-->
+    <!--
     <nav id="navbar">
       <a href="index.html">Home</a>
       <a href="bio.html">About</a>
-      <a href="contact.html">Contact</a>
-     
+      <a href="contact.html">Contact</a>     
     </nav>
+  -->
+    <div class="navbar">
+      <button onclick="myFunction()" class="dropbtn"><span class="material-icons md-20">menu</span></button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="bio.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
     <!--NAVBAR ENDS-->
 
     <!--HEADSHOT STARTS
@@ -24,9 +34,9 @@
 
     <!--HEADLINE SECTION STARTS-->
     <section id="Home">
-      <div class="Headline">     
+      <div class="Headline"> 
         <h1> Fleur Louis</h1>
-        <p> I am a Systems Operator Analyst at an engineering firm, expanding my expertise .</p>
+        <p> I am a Systems Operator Analyst at an engineering firm, expanding my expertise.</p>
         <p> I strive to create things that are not only beautiful, but aid individuals in need.</p> 
       </div>  
     </section>     
@@ -41,7 +51,7 @@
         </div>
         FOOTER BUTTONS END-->
      
-
+        <script src="script.js"></script>
 
   </body>
 </html>

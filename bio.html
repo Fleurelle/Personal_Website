@@ -9,11 +9,14 @@
   <body>
 
       <!--NAVBAR STARTS-->
-    <nav id="navbar">
-        <a href="index.html" class="active">Home</a>
-        <a href="bio.html">About</a>
-        <a href="contact.html">Contact</a>       
-      </nav>
+      <div class="navbar">
+        <button onclick="myFunction()" class="dropbtn"><span class="material-icons md-20">menu</span></button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="index.html">Home</a>
+          <a href="bio.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
       <!--NAVBAR ENDS-->
 
     <!--ABOUT ME SECTION STARTS-->
@@ -87,5 +90,7 @@
       </div>
     </section>
       <!--ABOUT ME SECTION ENDS-->
+
+      <script src="script.js"></script>
   </body>
 </html>
